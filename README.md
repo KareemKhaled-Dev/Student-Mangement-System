@@ -1,1 +1,16 @@
-# Student Mangement System
+Class vs Struct vs Record
+التلاتة بنستخدمهم عشان نجمع بيانات مع بعض، لكن في فرق بينهم.
+Class
+نوعه Reference Type.
+لو متغيرين بيشاوروا على نفس الـ Object، أي تعديل من واحد فيهم هيظهر عند التاني.
+
+Struct
+نوعه Value Type.
+لما تنسخه في متغير تاني، بتعمل نسخة مستقلة من البيانات.
+
+Record
+بنستخدمه غالبًا لما نهتم بالبيانات نفسها ومقارنتها.
+اتنين Records ممكن يبقوا متساويين لو بياناتهم متساوية، حتى لو اتعملوا بشكل منفصل.
+الـ record العادي Reference Type، لكن فيه record struct بيكون Value Type.                                                                                                                                                                                                                                                                                                               
+
+الـ Indexer بيخليك تتعامل معObject باستخدام الأقواس [], زي ال array and list
